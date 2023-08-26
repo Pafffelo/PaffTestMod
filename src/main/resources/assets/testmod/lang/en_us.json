@@ -1,4 +1,6 @@
 {
   "item.testmod.test-item": "Test Item",
-  "item.testmod.test-item-again": "Test Item (the sequel)"
+  "item.testmod.test-item-again": "Test Item (the sequel)",
+
+  "itemgroup.test": "Test Item Group"
 }
