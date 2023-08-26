@@ -12,9 +12,10 @@ import net.pafffelo.testmod.TestMod;
 
 public class ModItems {
     public static final Item TESTITEM = registerItem("test-item", new Item(new FabricItemSettings()));
-
+    public static final Item TESTITEMAGAIN = registerItem("test-item-again", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(TESTITEM);
+        entries.add(TESTITEMAGAIN);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TestMod.MOD_ID, name), item);
