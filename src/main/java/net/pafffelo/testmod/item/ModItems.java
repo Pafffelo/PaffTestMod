@@ -13,6 +13,8 @@ import net.pafffelo.testmod.TestMod;
 public class ModItems {
     public static final Item TESTITEM = registerItem("test-item", new Item(new FabricItemSettings()));
     public static final Item TESTITEMAGAIN = registerItem("test-item-again", new Item(new FabricItemSettings()));
+    public static final Item TESTITEMTHREE = registerItem("test-item-three", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(TESTITEM);
         entries.add(TESTITEMAGAIN);

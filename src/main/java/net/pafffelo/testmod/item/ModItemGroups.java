@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TESTITEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TESTITEM);
                         entries.add(ModItems.TESTITEMAGAIN);
+                        entries.add(ModItems.TESTITEMTHREE);
                     }).build());
     public static void registerItemGroups() {
         TestMod.LOGGER.info("Registering item groups for " + TestMod.MOD_ID);
