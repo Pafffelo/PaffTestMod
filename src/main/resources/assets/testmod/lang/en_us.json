@@ -3,5 +3,7 @@
   "item.testmod.test-item-again": "Test Item (the sequel)",
   "item.testmod.test-item-three": "Test Item (the threequel)",
 
+  "block.testmod.test_block": "Test Block",
+
   "itemgroup.test": "Test Item Group"
 }

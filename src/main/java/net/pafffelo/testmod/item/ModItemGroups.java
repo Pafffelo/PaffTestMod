@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.pafffelo.testmod.TestMod;
+import net.pafffelo.testmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup TEST_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -17,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModItems.TESTITEM);
                         entries.add(ModItems.TESTITEMAGAIN);
                         entries.add(ModItems.TESTITEMTHREE);
+
+                        entries.add(ModBlocks.TEST_BLOCK);
                     }).build());
     public static void registerItemGroups() {
         TestMod.LOGGER.info("Registering item groups for " + TestMod.MOD_ID);
